@@ -10,7 +10,7 @@ public class Projetos {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Escreva sua meta de vendas: ");
-        float meta = sc.nextFloat();
+        float mv = sc.nextFloat();
 
         System.out.print("Escreva sua Produção Total: ");
         float pt = sc.nextFloat();
@@ -22,6 +22,7 @@ public class Projetos {
 
         //CALCULOS PARA EFICIENCIA E EFICACIA
 
-        System.out.print("Sua eficiencia foi de: "+ (pc/pt)*100 +"%");
+        System.out.println("Sua Eficiencia foi de: "+ (pc/pt)*100 +"%");
+        System.out.println("Sua Eficacia foi de: "+ (pc/mv)*100 +"%");
     }
 }
