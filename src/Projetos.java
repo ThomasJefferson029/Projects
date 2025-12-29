@@ -20,6 +20,8 @@ public class Projetos {
 
         sc.close();
 
-        System.out.print("Resultado: "+ meta*2);
+        //CALCULOS PARA EFICIENCIA E EFICACIA
+
+        System.out.print("Sua eficiencia foi de: "+ (pc/pt)*100 +"%");
     }
 }
