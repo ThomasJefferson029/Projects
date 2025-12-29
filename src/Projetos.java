@@ -22,7 +22,10 @@ public class Projetos {
 
         //CALCULOS PARA EFICIENCIA E EFICACIA
 
-        System.out.println("Sua Eficiencia foi de: "+ (pc/pt)*100 +"%");
-        System.out.println("Sua Eficacia foi de: "+ (pc/mv)*100 +"%");
+        float eficiencia = (pc/pt)*100;
+        float eficacia = (pc/mv)*100;
+
+        System.out.println("Sua Eficiencia foi de: "+ eficiencia +"%");
+        System.out.println("Sua Eficacia foi de: "+ eficacia +"%");
     }
 }
