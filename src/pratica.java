@@ -5,6 +5,7 @@ Você foi contratado para desenvolver uma parte de um sistema simples que realiz
 
 1. Exibir uma saudação personalizada ao usuário.
 2. Calcular e retornar o quadrado de um número inteiro.
+
 Seu desafio é criar um programa Java que atenda aos seguintes requisitos:
 Requisitos:
 
@@ -15,5 +16,13 @@ Requisitos:
 2. Crie um metodo chamado calcularQuadrado que:
 - Receba um número inteiro como parâmetro;
 - Retorne o quadrado desse número (ex: 4 → 16);
-- No main, imprima o resultado da função com uma mensagem explicativa./*
+- No main, imprima o resultado da função com uma mensagem explicativa.*/
+
+    public static void exibirMensagem(String mensagem) {
+        System.out.println("Olá, " + nome + "! Seja bem-vindo ao sistema!");
+    }
+    public static int quadrado(int a) {
+        return a*a;
+    }
+
 }
